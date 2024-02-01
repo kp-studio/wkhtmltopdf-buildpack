@@ -17,7 +17,7 @@ if [ "$STACK" == "heroku-18" ]; then
 elif [ "$STACK" == "heroku-20" ]; then
   UBUNTU_VERSION="focal"
 elif [ "$STACK" == "heroku-22" ]; then
-  UBUNTU_VERSION="jammy"
+  UBUNTU_VERSION="bookworm"
 fi
 
 WKHTMLTOPDF_URL="https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6.1-2/wkhtmltox_0.12.6.1-2.${UBUNTU_VERSION}_amd64.deb"
